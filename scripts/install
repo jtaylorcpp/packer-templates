@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "staring install"
+apk update 
+apk upgrade 
+
+echo "install done"

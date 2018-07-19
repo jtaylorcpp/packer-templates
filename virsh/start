@@ -1,0 +1,2 @@
+#!/bin/sh
+virt-install --connect qemu:///system --ram 1024 -n "$1" --os-type=linux --disk path=$(pwd)/images/alpine-docker.qcow2,device=disk,bus=virtio,format=qcow2 --vcpus=1 --import --noautoconsole --nographics
